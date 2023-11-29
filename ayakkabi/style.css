@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: sans-serif;
+    overflow: hidden;
+    
+}
+body{
+    background-color: rgb(22, 22, 22);
+}
+.container{
+    margin-right: 5%;
+    margin-left: 5%;
+   
+}
+.header a{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    color: white;
+    border-bottom: 1px solid ;
+    
+}
+.pageheader {
+    font-size: 50px;
+    margin-top: 12%;
+    margin-left: 8%;
+    color: white;
+}
+.pageheader p{
+    width: 1000px;
+
+}
+.buttons button {
+    padding: 16px 38px;
+    background-color: crimson;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+   
+}
+
+.buttons a{
+    color: white;
+}
+.pic  {
+   position: absolute;
+   right:10px;
+   bottom: 150px;
+}
+.adidas{
+    font-size: 200px;
+    position: absolute;
+    bottom: 100px;
+    right: 130px;
+    color: white;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+
+.menuicon a{
+    color: white;
+   
+    position: absolute;
+    left:120px;
+    top: 30px;        
+}
+.searchicon a{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    color: white;
+    
+}
+.shoppingicon a{
+    position: absolute;
+    left: 280px;
+    top: 30px;
+    color: white;
+}
+.support a{
+    position: absolute;
+    left: 360px;
+    top: 30px;
+    color: white;
+}
+
+
